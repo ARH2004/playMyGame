@@ -1,0 +1,87 @@
+/* Обнуление стилей start */
+@import "nullstyle.css";
+/* Обнуление стилей end */
+
+/* Подключение стилей start */
+@import "style.css";
+/* Подключение стилей end */
+
+
+body{
+    background: rgb(52, 99, 68);
+    overflow: hidden;
+
+}
+.container{
+    max-width: 900px;
+    height: 100vh;
+    margin: 0 auto;
+    background: darkorange;
+}
+// .map{}
+.snake{
+    position: absolute;
+    left: 45%;
+    max-width: 200px;
+    transform: translateY(75vh);
+}
+.derevo{
+    position: absolute;
+    max-width: 200px;
+}
+.derevo1{
+    transform: translate(-200px, 90vh);
+}
+.derevo2{
+    transform: translate(-220px, 35vh);
+}
+.derevo3{
+    transform: translate(-230px);
+}
+.derevo4{
+    transform: translate(950px);
+}
+.derevo5{
+    transform: translate(960px, 65vh);
+}
+.derevo6{
+    transform: translate(940px, 35vh);
+}
+.ps{
+    width: 70px;
+    transition: .2s;
+}
+.pl{
+    position: absolute;
+    top: 0;
+    width: 70px;
+    transition: .2s;
+    display: none;
+}
+.btn{
+    max-width: 0;
+    position: fixed;
+    top: 130px;
+    left: 10px;
+    cursor: pointer;
+}
+.ps:hover{
+    transform: scale(1.25, 1.25);
+}
+.pl:hover{
+    transform: scale(1.25, 1.25);
+}
+.br{
+    position: absolute;
+}
+.coin{
+    position: absolute;
+    width: 40px;
+}
+.cub{
+    position: absolute;
+}
+.podarok{
+    position: absolute;
+    width: 40px;
+}
